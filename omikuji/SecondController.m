@@ -109,6 +109,8 @@
             
             [self remove];
             
+            NSLog(@"ともちゃん");
+            
             break;
         case MPMovieFinishReasonPlaybackError:
             NSLog(@"playback error");
