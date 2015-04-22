@@ -120,9 +120,11 @@
 
 - (void)remove {
     for (id object in self.view.subviews) {
+        /*
         if ([[object class] isSubclassOfClass:[MPMovieView class]]) {
             NSLog(@"%@", object );
         }
+         */
     }
 }
 
